@@ -121,7 +121,7 @@
      } 
      /* Activity 5 styles */ 
     .red5 { 
-    width: 100px; 
+    width: 100%; 
     height: 100px; 
     background-color: red; 
      } 
@@ -139,28 +139,31 @@
 
     } 
     .blue5 {
-    width: 100px; 
+    width: 100%; 
     height: 100px; 
     background-color: blue; 
      } 
      /* Activity 6 styles */ 
     .red6 {
-    width: 100px; 
+    width: 100%; 
     height: 100px; 
     background-color: red; 
     } 
     .green6 {
     width: 100px; 
-    height: 100px; 
-    background-color: green; 
+    height: 200px; 
+    background-color: green;
+        float:left;
+        margin:15px;
      } 
     .yellow6 {
-    width: 100px; 
-    height: 100px; 
+    width: 95%; 
+   
     background-color: gold; 
+        padding: 15px;
     } 
     .blue6 {
-    width: 100px; 
+    width: 100%; 
     height: 100px; 
     background-color: blue; 
     } 
