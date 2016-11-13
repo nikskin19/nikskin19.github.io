@@ -44,7 +44,9 @@
             margin-top: 1.5em;
         }
         #top, #middle{
-            display:flex
+            display:flex;
+            flex-flow: row wrap;
+            align-items: center
         }
         p{
             line-height: 1.5;
@@ -55,13 +57,30 @@
         #bottom {
             text-align: center;
             width: 70%;
-            margin: 0 auto;
+            margin: 2em auto;
+        
+        }
+        #footer {
+            height: 55px;
+            width: 100%;
+            text-align: right;
+            display: inline-flex;
+            flex-direction: row-reverse;
+            justify-content: space-between
         }
         .leftcol {
             width: 48%;
+            flex: 1 0 15em;
+            margin: .5em;
+           
         }
         .rightcol {
             width: 48%;
+            flex: 1 0 15em;
+            margin: .5em;
+        }
+        .fullwidth{
+            width= 100%
         }
     </style>
 </head>
@@ -79,7 +98,7 @@
             <li><a href="#">Contact Us</a></li>
         </ul>
     </nav>
-    <img src="http://brothert.net/dryoar/images/river-wide2.JPG" alt="Sweet Looking River">
+    <img class="fullwidth" src="http://brothert.net/dryoar/images/river-wide2.JPG" alt="Sweet Looking River">
     <section id="top">
         <div class="leftcol">
         <h1>We run rivers to relax...</h1>
@@ -100,7 +119,9 @@
             </section>
     <section id="bottom">
         <h1>What are you waiting for?</h1>
-        <p>We invite you to come relax with us on one of the amazing rivers we visit. Check out our trips and let us know which one best suits you. We're waiting to hear from you!</p>
+        <p>We invite you to come relax with us on one of the amazing rivers we visit. Check out our trips and let us know which one best suits you. We're waiting to hear from you!</p> 
+    </section>
+        <section id="footer">
         <a target="_blank" href="https://www.facebook.com/OARS.rafting/?hc_ref=SEARCH&fref=nf">
     <img src="facebook.png" alt="facebook">
         </a>
@@ -110,8 +131,9 @@
         <a target="_blank" href="https://www.youtube.com/channel/UCFdWDF3q3R2AphJ1InJWMlg"> 
             <img src="youtube.png" alt="youtube">
         </a>
-        </section>
+        
     <p>&copy; 2016 Dry Oar || Niklas Skinner</p>
+    </section>    
 </div>
         </body>
 
