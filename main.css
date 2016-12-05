@@ -124,3 +124,8 @@ a:visited {
 nav a {
     padding: 1em .6em
 }
+
+#river {
+    margin-top: 1em;
+    background-color: #285E70;
+}
