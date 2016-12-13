@@ -14,7 +14,7 @@ img {
 }
 
 nav {
-    background-color: #B3903B
+    background-color: #B3903B;
 }
 
 #middle {
@@ -67,9 +67,9 @@ p {
     height: 55px;
     width: 100%;
     text-align: right;
-    display: inline-flex;
+    display: flex;
     flex-direction: row-reverse;
-    justify-content: space-between
+    justify-content: space-between;
 }
 
 .leftcol {
@@ -101,6 +101,10 @@ nav {
 
 nav ul {
     margin: 0;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row wrap;
 }
 
 #logo {
